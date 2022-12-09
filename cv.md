@@ -12,7 +12,7 @@ I am 18 years old. My main goal at the moment is to gain knowledge in the field 
 - HTML
 - CSS
 - Git/GitHub
-- JavaScript
+- JavaScript (Fundamentals)
 ## Code Examples 
 ```
 function multiply(a, b){
