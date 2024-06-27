@@ -10,16 +10,21 @@ E-mail: juliettses@icloud.com
 Telegram: jullses
 
 ***
+
 #### About Me:
 I am a beginner Frontend developer. I study the basics of programming, study Software Engineering at the university and also like to read books in my free time.
+
 ***
+
 #### Skills and Proficiency:
 - HTML5, CSS3
 - JavaScript Basics
 - Git, GitHub
 - VS Code
 - Figma
+
 ***
+
 #### Code example:
 > const { assert } = require('chai');
 >   describe('hero class', () => {
@@ -47,11 +52,15 @@ I am a beginner Frontend developer. I study the basics of programming, study Sof
 >    }) 
 >    
 >    });
+
 ***
+
 #### Studies and Courses
 - Dnipropetrovs'kij Nacional'nij Universitet, Applied Math (in progress)
-- RS Schools Course «JavaScript/Front-end Stage 0» (in progress) 
+- RS Schools Course «JavaScript/Front-end Stage 0» (in progress)
+
 ***
+
 #### Languages:
 - English - Pre-Intermediate
 - Ukrainian - Native
