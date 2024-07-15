@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/9e507048b995f2f6aab019fc54c48a70.ico" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Yuliia Hudkova</h1>
+                <img src="/rsschool-cv/img/DSC_0266.JPG" alt="My Photo" class="section-profile-logo">
+                <p>Junoir Frontend Developer</p>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p>Phone: +380 99 999 99 99</p>
+                <p>E-mail: juliettses@icloud.com</p>
+                <p>Telegram: jullses</p>
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I am a beginner Frontend developer. I study the basics of programming, study Software Engineering at
+                    the university and also like to read books in my free time.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    const { assert } = require(‘chai’); describe(‘hero class’, () => {
+
+                        it(‘should create a hero’, () => {
+                        
+                        let myHero = new Hero();
+                        
+                        assert.strictEqual(myHero.name, ‘Hero’, “Hero should have a ‘name’ attribute with value "Hero"”);
+                        
+                        assert.strictEqual(myHero.experience, 0, “Hero should have an ‘experience’ attribute with value 0”);
+                        
+                        assert.strictEqual(myHero.health, 100, “Hero should have a ‘health’ attribute with value 100”);
+                        
+                        assert.strictEqual(myHero.position, ‘00’, “Hero should have a ‘position’ attribute with value "00"”);
+                        
+                        assert.strictEqual(myHero.damage, 5, “Hero should have a ‘damage’ attribute with value 5”);
+                        
+                        });
+                        
+                        it(‘should use name argument’, () => {
+                        
+                        assert.strictEqual(new Hero(‘Greg’).name, ‘Greg’, 
+                        
+                        “Hero Greg should have a ‘name’ attribute with value "Greg"”);
+                        
+                        })
+                        
+                        });
+                </pre>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Dnipropetrovs’kij Nacional’nij Universitet, Applied Math (in progress)</li>
+                    <li>RS Schools Course «JavaScript/Front-end Stage 0» (in progress)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>English - Pre-Intermediate</li>
+                    <li>Ukrainian - Native</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>© 2024</p>
+                <a href="https://github.com/jullses" class="github link">jullses</a>
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img src="/rsschool-cv/img/rs-school-logo.svg" alt="RSS">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
